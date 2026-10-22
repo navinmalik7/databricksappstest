@@ -1,0 +1,24 @@
+{
+  "name": "sales-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "React + Node.js reporting app for Databricks Apps (samples.tpch)",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "dev": "concurrently -k -n api,web \"node --watch server.js\" \"vite\"",
+    "build": "vite build",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.13.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.0",
+    "vite": "^5.4.11"
+  }
+}

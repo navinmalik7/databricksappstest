@@ -1,0 +1,5 @@
+command: ["npm", "run", "start"]
+
+env:
+  - name: WAREHOUSE_ID
+    value: "e6539ba79d40fb1c"
